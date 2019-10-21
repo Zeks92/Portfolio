@@ -142,11 +142,11 @@ export default {
         },
         2: {
           prevImage: "",
-          title: "Memory Game",
+          title: "BestBuyShop",
           description:
-            "Simple blocks match game developed with Vanilla JS. Match all 18blocks in a less moves as possible to get 5stars",
+            "MEVN stack shopping cart with add,edit and delete products in the shop",
           githubLink:
-            "https://github.com/Zeks92/MemoryGame"
+            "https://github.com/Zeks92/BestBuyShop"
         }
       }
     };
