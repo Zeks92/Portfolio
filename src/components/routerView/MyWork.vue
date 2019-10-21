@@ -88,6 +88,13 @@ export default {
             "Bookmarker app developed with Vanilla JS. Save your favorite websites using this simple but cool application",
           img: "",
           github_link: "https://github.com/Zeks92/Bookmarker"
+        },
+        8: {
+          title: "BestBuyShop",
+          description:
+            "MEVN stack shopping cart with add,edit and delete products in the shop",
+          img: "",
+          github_link: "https://github.com/Zeks92/BestBuyShop" 
         }
       }
     };
