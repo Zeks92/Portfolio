@@ -135,10 +135,10 @@ export default {
       workPrevious: {
         1: {
           prevImage: "",
-          title: "TopMoviesList",
+          title: "Dairy",
           description:
-            "A Vue.js application that show movies list. Using axios get request, myjson api retrieves all movie data. Order them by few categories, quick filter through list and many more exciting options in this app",
-          githubLink: "https://github.com/Zeks92/TopMoviesList"
+            "Personal dairy application developed with Nuxt to save your events,shoppings and news",
+          githubLink: "https://github.com/Zeks92/Dairy"
         },
         2: {
           prevImage: "",

@@ -40,33 +40,47 @@ export default {
     return {
       workSamples: {
         1: {
+          title: "Dairy",
+          description:
+            "Personal dairy application developed with Nuxt to save your events,shoppings and news",
+          img: "",
+          github_link: "https://github.com/Zeks92/Dairy"
+        },
+        2: {
+          title: "BestBuyShop",
+          description:
+            "MEVN stack shopping cart with add,edit and delete products in the shop",
+          img: "",
+          github_link: "https://github.com/Zeks92/BestBuyShop"
+        },
+        3: {
           title: "TopMoviesList",
           description:
             "A Vue.js application that show movies list. Using axios get request, myjson api retrieves all movie data. Order movies by few categories, quick filter through list and many more exciting options in this app",
           img: "",
           github_link: "https://github.com/Zeks92/TopMoviesList"
         },
-        2: {
+        4: {
           title: "Memory Game",
           description:
             "Simple blocks match game developed with Vanilla JS. Match all 36 blocks in a less moves as possible to get 5stars",
           img: "",
           github_link: "https://github.com/Zeks92/MemoryGame"
         },
-        3: {
+        5: {
           title: "SpeedType",
           description: "Speedtyping game with three levels of difficulty. Developed with Vanilla JS and Particles.js used for background snow effect",
           img: "",
           github_link: "https://github.com/Zeks92/SpeedType"
         },
-        4: {
+        6: {
           title: "ToDoList",
           description:
             "My first Vue.js project, simple ToDoList with adding, checking and deleting tasks. Counters also available for different states of task, completion progressbar as well and a cool reminder for too many undone tasks ",
           img: "",
           github_link: "https://github.com/Zeks92/ToDoList"
         },
-        5: {
+        7: {
           title: "CurrencyConverter",
           description:
             "Converter applicaton which I created while practicing Bootstrap and Jquery knowledge",
@@ -74,7 +88,7 @@ export default {
           github_link:
             "https://github.com/Zeks92/CurrencyConverter"
         },
-        6: {
+        8: {
           title: "Calculator",
           description:
             "My second vue.js project, nice calculator with basic mathematical operations",
@@ -82,19 +96,12 @@ export default {
           github_link:
             "https://github.com/Zeks92/Calculator"
         },
-        7: {
+        9: {
           title: "Bookmarker",
           description:
             "Bookmarker app developed with Vanilla JS. Save your favorite websites using this simple but cool application",
           img: "",
           github_link: "https://github.com/Zeks92/Bookmarker"
-        },
-        8: {
-          title: "BestBuyShop",
-          description:
-            "MEVN stack shopping cart with add,edit and delete products in the shop",
-          img: "",
-          github_link: "https://github.com/Zeks92/BestBuyShop" 
         }
       }
     };
