@@ -2,17 +2,17 @@
     <div id="footer">
         <footer class="container">
             <div class="row pt-3">
-                <div class="col-md-4 text-primary bold">
+                <div class="col-md-4 text-primary bold animated bounceInLeft">
                     Developed by Zeljko Lazovic
                 </div>
-                <div class="col-md-2 offset-md-4">
+                <div class="col-md-2 offset-md-4 animated flash faster infinite">
                     <div v-if=" $route.path!= 'contact' ">
                         <router-link class="bold" :to="{ name: 'contact' }">
                             hire me
                         </router-link>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 animated bounceInRight">
                     <div class="text-primary bold" style=";">Follow Me</div>
                     <br>
                     <ul>
@@ -44,10 +44,11 @@ export default {
 
 #footer{
   box-shadow: 2px 4px 20px rgba(0, 0, 0, 1);
+  background: #ebebe0;
   background-attachment: fixed;
   background-position: center;
   bottom: 0;
-  position: relative
+  position: relative;
 }
 ul {
   padding: 0;
@@ -61,14 +62,14 @@ li {
 
 i{
     font-size: 20px;
-    padding: 8px;
-    border-radius: 50%;
+    padding: 6px;
     transition-duration: 1.5s;
-    border: 2px solid;
 }
 
 i:hover{
    color: #000;
+   border:2px solid;
+   border-radius:50%;
 }
 
 
@@ -77,8 +78,10 @@ a{
     text-transform: uppercase;
 }
 
-.bold{
+.bold {
     font-weight: bold !important;
-
 }
+
+
+
 </style>
