@@ -135,10 +135,10 @@ export default {
       workPrevious: {
         1: {
           prevImage: "",
-          title: "Dairy",
+          title: "Diary",
           description:
-            "Personal dairy application developed with Nuxt to save your events,shoppings and news",
-          githubLink: "https://github.com/Zeks92/Dairy"
+            "Personal diary application developed with Nuxt to save your events,shoppings and news",
+          githubLink: "https://github.com/Zeks92/Diary"
         },
         2: {
           prevImage: "",

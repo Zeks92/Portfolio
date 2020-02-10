@@ -40,11 +40,11 @@ export default {
     return {
       workSamples: {
         1: {
-          title: "Dairy",
+          title: "Diary",
           description:
-            "Personal dairy application developed with Nuxt to save your events,shoppings and news",
+            "Personal diary application developed with Nuxt to save your events,shoppings and news",
           img: "",
-          github_link: "https://github.com/Zeks92/Dairy"
+          github_link: "https://github.com/Zeks92/Diary"
         },
         2: {
           title: "BestBuyShop",
