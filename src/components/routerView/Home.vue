@@ -40,7 +40,7 @@
                                 <!-- animated cards with hover effect -->
                                 <div class="col-md-8 offset-md-2">
                                     <div class="card-text">
-                                        <p class="exp text-info"> #{{ skillsCard.experianceYear[index] }}</p>
+                                        <p class="exp text-info"> {{ skillsCard.experianceYear[index] }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -112,18 +112,24 @@ export default {
           "jQuery",
           "Git",
           "Vue.js",
-          "Node.js"
+          "Node.js",
+          "Express",
+          "Nuxt.js",
+          "MongoDB"
         ],
         experianceYear: [
+          "4 years",
+          "4 years",
           "3 years",
           "3 years",
-          "2 years",
-          "2 years",
-          "2 years",
+          "3 years",
+          "3 years",
+          "3 years",
           "2 years",
           "2 years",
           "1 years",
-          "0.5 years"
+          "1 years",
+          "1 years"
         ]
       },
 
