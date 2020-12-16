@@ -148,11 +148,11 @@ export default {
         },
         2: {
           prevImage: "",
-          title: "BestBuyShop",
+          title: "Quiz",
           description:
-            "MEVN stack shopping cart with add,edit and delete products in the shop",
+            "A quiz app built with Vue.js and powered by the Open Trivia Database.",
           githubLink:
-            "https://github.com/Zeks92/BestBuyShop"
+            "https://github.com/Zeks92/Quiz"
         }
       }
     };

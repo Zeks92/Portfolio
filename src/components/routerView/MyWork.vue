@@ -47,18 +47,18 @@ export default {
           github_link: "https://github.com/Zeks92/Diary"
         },
         2: {
-          title: "BestBuyShop",
-          description:
-            "MEVN stack shopping cart with add,edit and delete products in the shop.",
-          img: "",
-          github_link: "https://github.com/Zeks92/BestBuyShop"  
-        },
-        3: {
           title: "Quiz",
           description:
             "A quiz app built with Vue.js and powered by the Open Trivia Database.",
           img: "",
-          github_link: "https://github.com/Zeks92/Quiz"
+          github_link: "https://github.com/Zeks92/Quiz"  
+        },
+        3: {
+          title: "BestBuyShop",
+          description:
+            "MEVN stack shopping cart with add,edit and delete products in the shop.",
+          img: "",
+          github_link: "https://github.com/Zeks92/BestBuyShop"
         },
         4: {
           title: "TopMoviesList",
