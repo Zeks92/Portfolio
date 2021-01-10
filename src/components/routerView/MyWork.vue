@@ -68,26 +68,33 @@ export default {
           github_link: "https://github.com/Zeks92/TopMoviesList"
         },
         5: {
+          title: "Scoreboard",
+          description:
+            "Cool and simple app to keep scores in games against your friends",
+          img: "",
+          github_link: "https://github.com/Zeks92/Scoreboard"
+        },
+        6: {
           title: "Memory Game",
           description:
             "Simple blocks match game developed with Vanilla JS. Match all 36 blocks in a less moves as possible to get 5stars",
           img: "",
           github_link: "https://github.com/Zeks92/MemoryGame"
         },
-        6: {
+        7: {
           title: "SpeedType",
           description: "Speedtyping game with three levels of difficulty. Developed with Vanilla JS and Particles.js used for background snow effect",
           img: "",
           github_link: "https://github.com/Zeks92/SpeedType"
         },
-        7: {
+        8: {
           title: "ToDoList",
           description:
             "My first Vue.js project, simple ToDoList with adding, checking and deleting tasks. Counters also available for different states of task, completion progressbar as well and a cool reminder for too many undone tasks ",
           img: "",
           github_link: "https://github.com/Zeks92/ToDoList"
         },
-        8: {
+        9: {
           title: "CurrencyConverter",
           description:
             "Converter applicaton which I created while practicing Bootstrap and Jquery knowledge",
@@ -95,7 +102,7 @@ export default {
           github_link:
             "https://github.com/Zeks92/CurrencyConverter"
         },
-        9: {
+        10: {
           title: "Calculator",
           description:
             "My second vue.js project, nice calculator with basic mathematical operations",
@@ -103,7 +110,7 @@ export default {
           github_link:
             "https://github.com/Zeks92/Calculator"
         },
-        10: {
+        11: {
           title: "Bookmarker",
           description:
             "Bookmarker app developed with Vanilla JS. Save your favorite websites using this simple but cool application",
