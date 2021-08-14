@@ -62,9 +62,9 @@
                     <div class="card text-center border-0 hoverEffect transitionAnimated" style="background-color: #e6e6e6;height: 340px;">
                         <div class="card-body">
                             <div class="card-title text-info my-2">
-                                <h3>
+                                <h4>
                                     {{ work.title }}
-                                </h3>
+                                </h4>
                             </div>
                             <div class="card-subtitle  text-justify">
                                 {{ work.description }}
@@ -141,18 +141,18 @@ export default {
       workPrevious: {
         1: {
           prevImage: "",
-          title: "Diary",
+          title: "Customers-Orders",
           description:
-            "Personal diary application developed with Nuxt to save your events,shoppings and news",
-          githubLink: "https://github.com/Zeks92/Diary"
+            "Awesome angular application that shows list of customers and their orders",
+          githubLink: "https://github.com/Zeks92/Customers-Orders"
         },
         2: {
           prevImage: "",
-          title: "Quiz",
+          title: "Diary",
           description:
-            "A quiz app built with Vue.js and powered by the Open Trivia Database.",
+            "Personal diary application developed with Nuxt to save your events,shoppings and news",
           githubLink:
-            "https://github.com/Zeks92/Quiz"
+            "https://github.com/Zeks92/Diary"
         }
       }
     };
