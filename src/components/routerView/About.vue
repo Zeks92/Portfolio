@@ -66,31 +66,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="row customDesign">
-                    <div class="row py-2 heading">
-                        School
-                    </div>
-                    <div class="col" id="EdSchool">
-                        <div v-for="(EdSchool, index) in School_Education" :key="index">
-                            <div class="row pt-3">
-                                <div class="col" id="school_education">
-                                    {{ EdSchool.school_education }}
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6 offset-6 text-right" id="to">Passing Year {{ EdSchool.to }} </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-8" id="school_name">
-                                    {{ EdSchool.school_name }}
-                                </div>
-                                <div class="col-sm-4" id="location_school">
-                                    {{ EdSchool.location }}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="col-md-6 animated fadeInRight wrapper">
               <div class="row customDesign">
@@ -150,12 +125,20 @@ export default {
       professionalExpirience: {
         // you can add several work expirience below
         1: {
-          from: "1/9/17",
-          to: 'present', // or add date format
+          from: '1/9/18',
+          to: '8/30/21', // or add date format
           company_name: "Freelance",
           location: "Arilje",
           pr_profile: "Frontend Developer",
           work_Description: "Development of new websites and applications using latest tools and technologies in web development"
+        },
+        2: {
+          from: '1/9/21',
+          to: 'present',
+          company_name: 'AlgoMetric',
+          location: 'Pozega',
+          pr_profile: 'Frontend Developer',
+          work_Description: 'Working on different projects for some of the major clients in tax business'
         }
       },
       Education: {
@@ -170,18 +153,6 @@ export default {
           Add more education here
         */
       },
-      School_Education: {
-        1: {
-          to: "2011", // 'present'
-          school_name: "Tehnical School",
-          location: "Uzice",
-          school_education: "High School"
-        }
-        /*
-        // Add more schools
-        */
-      },
-
       listAttributes: ['Hardworking','Creative', 'Communicative', 'Organized', 'Punctuallity', 'Responsible' ]
    
     };
