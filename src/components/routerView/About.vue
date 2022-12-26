@@ -17,10 +17,10 @@
                                         <div class="col-3" id="to" style="text-align:right"> {{ professionalExp.to }} </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-sm-8" id="company_name">
+                                        <div class="col-sm-7" id="company_name">
                                             {{ professionalExp.company_name }}
                                         </div>
-                                        <div class="col-sm-4" id="location">
+                                        <div class="col-sm-5" id="location">
                                             {{ professionalExp.location }}
                                         </div>
                                     </div>
@@ -30,8 +30,8 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col text-center pt-2" id="work_Description">
-                                            {{ professionalExp.work_Description }}
+                                        <div class="col text-center pt-2" id="work_description">
+                                            {{ professionalExp.work_description }}
                                         </div>
                                     </div>
                                 </div>
@@ -44,23 +44,23 @@
                     <div class="row py-2 heading">
                         faculty
                     </div>
-                    <div class="col" id="Edfaculty">
-                        <div v-for="(Edfaculty, index) in Education" :key="index">
+                    <div class="col" id="edfaculty">
+                        <div v-for="(edfaculty, index) in Education" :key="index">
                             <div class="row  pt-3">
-                                <div class="col-3 offset-6" id="from" style="text-align:right"> {{ Edfaculty.from}} </div>
-                                <div class="col-3" id="to" style="text-align:right">{{ Edfaculty.to }} </div>
+                                <div class="col-3 offset-6" id="from" style="text-align:right"> {{ edfaculty.from}} </div>
+                                <div class="col-3" id="to" style="text-align:right">{{ edfaculty.to }} </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-8" id="faculty_name">
-                                    {{ Edfaculty.faculty_name }}
+                                <div class="col-sm-7" id="faculty_name">
+                                    {{ edfaculty.faculty_name }}
                                 </div>
-                                <div class="col-sm-4" id="location_faculty">
-                                    {{ Edfaculty.location }}
+                                <div class="col-sm-5" id="location_faculty">
+                                    {{ edfaculty.location }}
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col" id="faculty_course">
-                                    Course : {{ Edfaculty.faculty_course }}
+                                    Course : {{ edfaculty.faculty_course }}
                                 </div>
                             </div>
                         </div>
@@ -126,11 +126,11 @@ export default {
         // you can add several work expirience below
         1: {
           from: '1/9/18',
-          to: '8/30/21', // or add date format
+          to: '8/30/21',
           company_name: "Freelance",
           location: "Arilje",
           pr_profile: "Frontend Developer",
-          work_Description: "Development of new websites and applications using latest tools and technologies in web development"
+          work_description: "Development of new websites and applications using latest tools and technologies in web development"
         },
         2: {
           from: '1/9/21',
@@ -138,7 +138,7 @@ export default {
           company_name: 'AlgoMetric',
           location: 'Pozega',
           pr_profile: 'Frontend Developer',
-          work_Description: 'Working on different projects for some of the major clients in tax business'
+          work_description: 'Working on different projects for some of the major clients in tax business'
         }
       },
       Education: {
@@ -147,7 +147,7 @@ export default {
           to: "2018", // if still on faculty just enter -> 'present'
           faculty_name: "University John Naisbitt",
           location: "Belgrade",
-          faculty_course: "IT"
+          faculty_course: "Information Technology"
         }
         /*
           Add more education here

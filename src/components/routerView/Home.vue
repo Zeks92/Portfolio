@@ -109,13 +109,10 @@ export default {
           "Bootstrap",
           "Sass",
           "JavaScript",
-          "jQuery",
-          "Git",
-          "Vue.js",
-          "Node.js",
-          "Express",
-          "Nuxt.js",
-          "MongoDB"
+          "Vue",
+          "Nuxt",
+          "Angular",
+          "Kendo"
         ],
         experianceYear: [
           "4 years",
@@ -124,12 +121,9 @@ export default {
           "3 years",
           "3 years",
           "3 years",
-          "3 years",
           "2 years",
           "2 years",
-          "1 years",
-          "1 years",
-          "1 years"
+          "2 years"
         ]
       },
 
