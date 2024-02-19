@@ -13,15 +13,12 @@
                             <div class="col" id="professionalExp">
                                 <div v-for="(professionalExp, index) in professionalExpirience" :key="index">
                                     <div class="row pt-3">
-                                        <div class="col-3 offset-6" id="from" style="text-align:right"> {{ professionalExp.from }} </div>
-                                        <div class="col-3" id="to" style="text-align:right"> {{ professionalExp.to }} </div>
+                                        <div class="col-2 offset-8" id="from" style="text-align:right"> {{ professionalExp.from }} </div> -
+                                        <div class="col-1" id="to" style="text-align:right"> {{ professionalExp.to }} </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-sm-7" id="company_name">
+                                        <div class="col-sm-7" style="margin-top:-22px" id="company_name">
                                             {{ professionalExp.company_name }}
-                                        </div>
-                                        <div class="col-sm-5" id="location">
-                                            {{ professionalExp.location }}
                                         </div>
                                     </div>
                                     <div class="row">
@@ -40,22 +37,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="row customDesign">
+                <div class="row">
                     <div class="row py-2 heading">
                         faculty
                     </div>
                     <div class="col" id="edfaculty">
                         <div v-for="(edfaculty, index) in Education" :key="index">
                             <div class="row  pt-3">
-                                <div class="col-3 offset-6" id="from" style="text-align:right"> {{ edfaculty.from}} </div>
-                                <div class="col-3" id="to" style="text-align:right">{{ edfaculty.to }} </div>
+                                <div class="col-2 offset-8" id="from" style="text-align:right"> {{ edfaculty.from}} </div> -
+                                <div class="col-1" id="to" style="text-align:right">{{ edfaculty.to }} </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-7" id="faculty_name">
+                                <div class="col-sm-7" style="margin-top:-22px" id="faculty_name">
                                     {{ edfaculty.faculty_name }}
-                                </div>
-                                <div class="col-sm-5" id="location_faculty">
-                                    {{ edfaculty.location }}
                                 </div>
                             </div>
                             <div class="row">
@@ -128,7 +122,6 @@ export default {
           from: '1/9/18',
           to: '8/30/21',
           company_name: "Freelance",
-          location: "Arilje",
           pr_profile: "Frontend Developer",
           work_description: "Development of new websites and applications using latest tools and technologies in web development"
         },
@@ -136,7 +129,6 @@ export default {
           from: '1/9/21',
           to: 'present',
           company_name: 'AlgoMetric',
-          location: 'Pozega',
           pr_profile: 'Frontend Developer',
           work_description: 'Working on different projects for some of the major clients in tax business'
         }
@@ -146,7 +138,6 @@ export default {
           from: "2012",
           to: "2018", // if still on faculty just enter -> 'present'
           faculty_name: "University John Naisbitt",
-          location: "Belgrade",
           faculty_course: "Information Technology"
         }
         /*

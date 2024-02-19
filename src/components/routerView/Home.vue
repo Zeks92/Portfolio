@@ -112,7 +112,9 @@ export default {
           "Vue",
           "Nuxt",
           "Angular",
-          "Kendo"
+          "Kendo",
+          "React",
+          "Material UI"
         ],
         experianceYear: [
           "4 years",
@@ -123,7 +125,9 @@ export default {
           "3 years",
           "2 years",
           "2 years",
-          "2 years"
+          "2 years",
+          "1 year",
+          "1 year"
         ]
       },
 
